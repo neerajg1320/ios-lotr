@@ -126,6 +126,7 @@ struct ContentView: View {
                 }
                 .padding()
                 .background(.black)
+                .cornerRadius(10)
                 
                 Spacer()
                 
