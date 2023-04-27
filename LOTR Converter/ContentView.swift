@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @State var leftAmount = ""
     @State var rightAmount = ""
+    @State var leftCurrency: Currency = .silverPiece
+    @State var rightCurrency: Currency = .goldPiece
     
     var body: some View {
         ZStack {
@@ -37,12 +39,12 @@ struct ContentView: View {
                         // Currency
                         HStack {
                             // Currency Image
-                            Image("silverpiece")
+                            Image(CurrencyImage.allCases[Currency.allCases.firstIndex(of: leftCurrency)!].rawValue)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(height: 33)
                             // Currency Text
-                            Text("Silver Piece")
+                            Text(CurrencyText.allCases[Currency.allCases.firstIndex(of: leftCurrency)!].rawValue)
                                 .font(.headline)
                                 .foregroundColor(.white)
                         }
@@ -65,16 +67,15 @@ struct ContentView: View {
                     VStack {
                         // Currency
                         HStack {
-                            // Currency Text
-                            Text("Gold Piece")
-                                .font(.headline)
-                                .foregroundColor(.white)
-                            
                             // Currency Image
-                            Image("goldpiece")
+                            Image(CurrencyImage.allCases[Currency.allCases.firstIndex(of: rightCurrency)!].rawValue)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(height: 33)
+                            // Currency Text
+                            Text(CurrencyText.allCases[Currency.allCases.firstIndex(of: rightCurrency)!].rawValue)
+                                .font(.headline)
+                                .foregroundColor(.white)
                         }
                         .padding(.bottom, -5)
                         

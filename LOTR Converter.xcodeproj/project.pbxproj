@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073117D729FA377D0078FD1D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073117D629FA377D0078FD1D /* Currency.swift */; };
+		073117D929FA40E50078FD1D /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073117D829FA40E50078FD1D /* IconGrid.swift */; };
 		077A6A1929F926DE0003FAC4 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A6A1829F926DE0003FAC4 /* ExchangeInfo.swift */; };
 		077A6A1B29F929420003FAC4 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A6A1A29F929420003FAC4 /* ExchangeRate.swift */; };
 		077A6A1D29F92EFA0003FAC4 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A6A1C29F92EFA0003FAC4 /* SelectCurrency.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		073117D629FA377D0078FD1D /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		073117D829FA40E50078FD1D /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		077A6A1829F926DE0003FAC4 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		077A6A1A29F929420003FAC4 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		077A6A1C29F92EFA0003FAC4 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				077A6A1829F926DE0003FAC4 /* ExchangeInfo.swift */,
 				077A6A1A29F929420003FAC4 /* ExchangeRate.swift */,
 				077A6A1C29F92EFA0003FAC4 /* SelectCurrency.swift */,
+				073117D829FA40E50078FD1D /* IconGrid.swift */,
 				077A6A1E29F932FD0003FAC4 /* CurrencyIcon.swift */,
 				07B0E1D129F9023B0088A630 /* Assets.xcassets */,
 				07B0E1D329F9023B0088A630 /* Preview Content */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073117D929FA40E50078FD1D /* IconGrid.swift in Sources */,
 				077A6A1B29F929420003FAC4 /* ExchangeRate.swift in Sources */,
 				077A6A1D29F92EFA0003FAC4 /* SelectCurrency.swift in Sources */,
 				077A6A1929F926DE0003FAC4 /* ExchangeInfo.swift in Sources */,
